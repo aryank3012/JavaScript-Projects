@@ -4,48 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Calculate Age</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 class="text-center">Welcome, Calculate here!</h1>
     <div class="container">
-        <div class="row">
-            <input class="screen" type="text" placeholder="00" readonly>
+        <div class="heading">
+            <h2>Calculate your age!</h2>
         </div>
-        <div class="row">
-            <button class="btn" id="AC">AC</button>
-            <button class="btn">00</button>
-            <button class="btn operator">%</button>
-            <button class="btn operator">/</button>
+        <div class="enter">
+            <p>Enter Your Date Of Birth...</p>
         </div>
-        <div class="row">
-            <button class="btn">7</button>
-            <button class="btn">8</button>
-            <button class="btn">9</button>
-            <button class="btn operator">*</button>
+        <div class="inputAge">
+            <input type="date" placeholder="dd/mm/yyyy">
         </div>
-        <div class="row">
-            <button class="btn">4</button>
-            <button class="btn">5</button>
-            <button class="btn">6</button>
-            <button class="btn operator">-</button>
+        <div class="calculate">
+            <button>Calculate Age</button>
         </div>
-        <div class="row">
-            <button class="btn">1</button>
-            <button class="btn">2</button>
-            <button class="btn">3</button>
-            <button class="btn operator">+</button>
-        </div>
-        <div class="row">
-            <button class="btn" id="zero">0</button>
-            <button class="btn operator">.</button>
-            <button class="btn" id="equal">=</button>
+        <div class="yourAge">
+            <p>Your age is 00 years old</p>
         </div>
     </div>
 </body>
-
 <script src="project.js"></script>
 
 </html>
